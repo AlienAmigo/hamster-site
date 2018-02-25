@@ -1,0 +1,12 @@
+extends templates/layout-page.pug
+
+block meta
+  title Blog
+  meta(name='description', content='Blog page!')
+
+block nav
+  -var selected = 'blog';
+  +main-nav(selected)
+
+block content
+  p qwerty
